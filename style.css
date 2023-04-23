@@ -21,7 +21,7 @@ body{
 
 .container{
    max-width: 1200px;
-   margin-left:40px;
+   margin: 100px;
    padding:3rem 2rem;
 }
 
@@ -222,7 +222,7 @@ body{
    cursor: pointer; 
 }
 .sidebar.close{
-   width: 40px;
+   width: 88px;
 }
 header{
    height: 100px;
@@ -322,3 +322,4 @@ li a:hover .icon,
 li a:hover .text{
    color: #242526;
 }
+
