@@ -21,7 +21,7 @@ body{
 
 .container{
    max-width: 1200px;
-   margin: 100px auto;
+   margin:0 auto;
    padding:3rem 2rem;
 }
 
@@ -222,7 +222,7 @@ body{
    cursor: pointer; 
 }
 .sidebar.close{
-   width: 88px;
+   width: 80px;
 }
 header{
    height: 100px;
@@ -235,7 +235,7 @@ header img{
    width: 80px;
    justify-content: center;
    align-items: center;
-   transition: all 0.3s ease;
+   transition: all 0.23s ease;
 }
 .sidebar.close img{
    width: 30px;
@@ -251,7 +251,7 @@ header img{
    justify-content: center;
    font-size: 26px;
    cursor: pointer;
-   transition: all 0.3s ease;
+   transition: all 0.23s ease;
    color: #fff;
 }
 .menu li{
@@ -268,7 +268,7 @@ header img{
    align-items: center;
    justify-content: center;
    font-size: 18px;
-   transition: all 0.3s ease;
+   transition: all 0.23s ease;
    color: #ccc;
 }
 li span{
@@ -276,7 +276,7 @@ li span{
    font-weight: 500;
    white-space: nowrap;
    opacity: 1;
-   transition: .3s;
+   transition: .23s;
    color: #ccc;
 }
 .sidebar.close .text{
@@ -289,7 +289,7 @@ li.search-box{
    border-radius: 6px;
    background-color: #3a3b3c;
    cursor: pointer;
-   transition: all 0.3s ease;
+   transition: all 0.23s ease;
 }
 li.search-box input{
    height: 100%;
@@ -301,7 +301,7 @@ li.search-box input{
    border-radius: 6px;
    font-size: 17px;
    font-weight: 500;
-   transition: all 0.3s ease;
+   transition: all 0.23s ease;
 }
 li a{
    list-style: none;
@@ -313,7 +313,7 @@ li a{
    width: 100%;
    border-radius: 6px;
    text-decoration: none;
-   transition: all 0.3s ease;
+   transition: all 0.23s ease;
 }
 li a:hover{
    background-color: #fff;
