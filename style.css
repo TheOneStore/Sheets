@@ -21,7 +21,7 @@ body{
 
 .container{
    max-width: 1200px;
-   margin-left:40px;
+   margin-left:150px;
    padding:3rem 2rem;
 }
 
@@ -214,7 +214,7 @@ body{
    top: 0;
    left: 0;
    height: 100vh;
-   width: 250px;
+   width: 150px;
    padding: 10px 14px;
    background: #242526;
    transition: all 0.23s ease;
