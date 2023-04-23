@@ -47,6 +47,7 @@ body{
    outline: .1rem solid #ccc;
    outline-offset: -1.5rem;
    cursor: pointer;
+   border-radius: 100px;
 }
 
 .container .products-container .product:hover{
@@ -60,6 +61,7 @@ body{
 
 .container .products-container .product:hover img{
    transform: scale(.9);
+   
 }
 
 .container .products-container .product h3{
@@ -86,6 +88,7 @@ body{
    display: none;
    align-items: center;
    justify-content: center;
+   
 }
 
 .products-preview .preview{
@@ -96,6 +99,7 @@ body{
    position: relative;
    margin:2rem;
    width: 40rem;
+   border-radius: 20px;
 }
 
 .products-preview .preview.active{
@@ -190,7 +194,7 @@ body{
 
 @media (max-width:768px){
 
-   .products-preview .preview img{
+   .products-preview .preview .images{
       height: 25rem;
    }
 
@@ -214,7 +218,8 @@ body{
    padding: 10px 14px;
    background: #242526;
    transition: all 0.23s ease;
-   z-index: 100;  
+   z-index: 100; 
+   cursor: pointer; 
 }
 .sidebar.close{
    width: 88px;
