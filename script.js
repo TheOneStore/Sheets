@@ -27,7 +27,7 @@ toggle = body.querySelector(".toggle");
 
 toggle.addEventListener("click", () => {
   sidebar.classList.toggle("close");
-// });
+});
 // document.addEventListener("click", (event) => {
 //   // Close the sidebar when clicking outside of it and toggle button
 //   if (!sidebar.contains(event.target) && event.target !== toggle) {
